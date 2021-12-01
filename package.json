@@ -9,10 +9,7 @@
     "export": "next export",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next out",
-    "lint": "eslint --cache \"src/**/*.{js,jsx,ts,tsx}\"",
-    "lint:fix": "eslint --cache --fix \"src/**/*.{js,jsx,ts,tsx}\"",
-    "build-types": "tsc --noEmit --pretty",
-    "prepare": "husky install"
+    "build-types": "tsc --noEmit --pretty"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
@@ -46,7 +43,6 @@
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-unused-imports": "^1.1.5",
-    "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.3.11",
@@ -55,13 +51,5 @@
     "tailwindcss": "^2.2.17",
     "typescript": "^4.4.4"
   },
-  "license": "ISC",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "yarn run lint:fix"
-  }
+  "license": "ISC"
 }
