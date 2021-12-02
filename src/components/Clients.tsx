@@ -15,7 +15,7 @@ const Clients = () => {
           >
             {title}
           </h1>
-          <Divider width="w-2/4" />
+          <Divider />
         </div>
 
         <div className="mt-10">

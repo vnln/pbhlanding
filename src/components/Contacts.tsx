@@ -22,11 +22,11 @@ const Contacts = () => {
       className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
     >
       <h1
-        className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+        className={`w-full my-2 text-3xl sm:text-5xl font-bold leading-tight text-center text-primary`}
       >
         {title}
       </h1>
-      <Divider width="w-1/4" />
+      <Divider />
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 flex relative">
