@@ -18,6 +18,7 @@ const Advantages = () => {
         <div className={`w-5/6 sm:w-3/4 m-auto`}>
           <ul className={`list-disc`}>
             {advantages.items.map((item) => (
+              // eslint-disable-next-line react/jsx-key
               <li className={`text-gray-500 p-3`}>{item}</li>
             ))}
           </ul>
