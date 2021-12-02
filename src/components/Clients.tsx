@@ -36,7 +36,7 @@ const Clients = () => {
                     {client.name}
                   </p>
                 </dt>
-                <dd className="mt-2 ml-24 text-base text-gray-500">
+                <dd className="mt-2 ml-24 text-sm text-gray-500">
                   {client.description}
                 </dd>
               </div>
