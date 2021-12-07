@@ -2,6 +2,8 @@
 
 ## <a href="https://pbh.contact/"> Live Demo</a>
 
+<img src="public/assets/images/screenshot.jpg" width="100%" height="auto" />
+
 ### Features
 
 - 📱  Responsive design
